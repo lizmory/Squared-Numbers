@@ -1,0 +1,16 @@
+# Adriana Lizmory Cuellar (Liz Cuellar) 
+# Student number 8672198
+
+myDict = {} # this line declares a dictionary variable
+x = range(1,11) #a range from 1 to 11 is created
+
+
+for n in x: #iterates ten times from 1 to 10
+    myDict[n] = n**2  # In this line, each key n (from 1 to 10) of the dictionary...
+                      #...is associated with a value that is the square of the same key.
+print("These are my dictionary items: ")   
+
+for key, value in myDict.items(): # using a for loop prints each item pair
+
+    print(key, value)
+
